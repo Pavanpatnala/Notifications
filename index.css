@@ -1,0 +1,51 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  display: flex;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  list-style: none;
+  width: 90%;
+}
+h1 {
+  text-align: center;
+}
+.box1 {
+  background-color: #0b69ff;
+  border-radius: 20px;
+}
+.box2 {
+  background-color: #2dca73;
+  border-radius: 20px;
+}
+.box3 {
+  background-color: #ffb800;
+  border-radius: 20px;
+}
+.box4 {
+  background-color: #ff0b37;
+  border-radius: 20px;
+}
+img {
+  height: 20px;
+  margin-right: 20px;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  li {
+    width: 60%;
+  }
+}
